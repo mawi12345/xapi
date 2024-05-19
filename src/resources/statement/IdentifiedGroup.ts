@@ -1,5 +1,3 @@
-// Mawi: v2 has to be exactly one
-// import { InverseFunctionalIdentifier } from ".";
 import { Account } from "./Account";
 import { Agent } from ".";
 
@@ -31,6 +29,7 @@ type AccountGroup = {
   member?: Agent[];
 };
 
+// Mawi: v2 has to be exactly one
 export type IdentifiedGroup =
   | MBoxGroup
   | MBoxSha1sumGroup

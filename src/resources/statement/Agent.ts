@@ -1,5 +1,3 @@
-// Mawi: v2 has to be exactly one
-// import { InverseFunctionalIdentifier } from ".";
 import { Account } from "./Account";
 
 type MBoxAgent = {
@@ -26,4 +24,5 @@ type AccountAgent = {
   account: Account;
 };
 
+// Mawi: v2 has to be exactly one
 export type Agent = MBoxAgent | MBoxSha1sumAgent | OpenIdAgent | AccountAgent;
