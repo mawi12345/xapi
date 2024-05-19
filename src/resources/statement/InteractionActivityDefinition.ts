@@ -7,13 +7,11 @@ interface BaseInteractionActivityDefinition extends ActivityDefinition {
   correctResponsesPattern: string[];
 }
 
-// Mawi: v2 checked
 export interface InteractionComponent {
   id: string;
   description?: LanguageMap;
 }
 
-// Mawi: v2 checked
 interface TrueFalseInteractionActivityDefinition
   extends BaseInteractionActivityDefinition {
   interactionType: "true-false";
@@ -27,19 +25,16 @@ interface ChoiceInteractionActivityDefinition
   choices: InteractionComponent[];
 }
 
-// Mawi: v2 checked
 interface FillInInteractionActivityDefinition
   extends BaseInteractionActivityDefinition {
   interactionType: "fill-in";
 }
 
-// Mawi: v2 checked
 interface LongFillInInteractionActivityDefinition
   extends BaseInteractionActivityDefinition {
   interactionType: "long-fill-in";
 }
 
-// Mawi: v2 checked
 interface LikertInteractionActivityDefinition
   extends BaseInteractionActivityDefinition {
   interactionType: "likert";
@@ -68,13 +63,11 @@ interface SequencingInteractionActivityDefinition
   choices: InteractionComponent[];
 }
 
-// Mawi: v2 checked
 interface NumericInteractionActivityDefinition
   extends BaseInteractionActivityDefinition {
   interactionType: "numeric";
 }
 
-// Mawi: v2 checked
 interface OtherInteractionActivityDefinition
   extends BaseInteractionActivityDefinition {
   interactionType: "other";

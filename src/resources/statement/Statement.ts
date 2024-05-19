@@ -9,7 +9,6 @@ import {
 } from ".";
 import { Versions } from "../../constants";
 
-// Mawi: v2 checked
 export interface Statement {
   id?: string;
   actor: Actor;

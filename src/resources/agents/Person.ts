@@ -1,6 +1,5 @@
 import { Account } from "../statement/Account";
 
-// Mawi: v2 checked
 export interface Person {
   objectType: "Person";
   name?: string[];
