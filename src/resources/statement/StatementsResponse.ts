@@ -1,5 +1,6 @@
 import { Statement } from ".";
 
+// Mawi: v2 not sure if the more property is required
 export interface StatementsResponse {
   statements: Statement[];
   /**

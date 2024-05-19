@@ -1,8 +1,9 @@
-import { Account } from "./Account";
+// import { Account } from "./Account";
 
-export interface InverseFunctionalIdentifier {
-  mbox?: string;
-  mbox_sha1sum?: string;
-  account?: Account;
-  openid?: string;
-}
+// Mawi: v2 has to be exactly one
+// export interface InverseFunctionalIdentifier {
+//   mbox?: string;
+//   mbox_sha1sum?: string;
+//   account?: Account;
+//   openid?: string;
+// }

@@ -1,5 +1,6 @@
 import { LanguageMap, AttachmentUsage } from ".";
 
+// Mawi: v2 checked
 export interface Attachment {
   usageType: AttachmentUsage;
   display: LanguageMap;

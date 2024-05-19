@@ -1,5 +1,6 @@
 import { Extensions } from ".";
 
+// Mawi: v2 checked
 export interface ResultScore {
   scaled: number;
   raw?: number;
@@ -7,6 +8,7 @@ export interface ResultScore {
   max?: number;
 }
 
+// Mawi: v2 checked
 export interface Result {
   score?: ResultScore;
   success?: boolean;
